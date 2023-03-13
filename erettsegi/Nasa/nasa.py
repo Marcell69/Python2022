@@ -50,6 +50,3 @@ for e in hibakodok:
         if o[3]==e:
             temp.append(e)
     print(len(temp))
-
-
-
