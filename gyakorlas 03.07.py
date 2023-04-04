@@ -108,11 +108,30 @@ print(oszlop)
 #bekérés, annyival osztható oszlopok kiírás
 szam= int(input("adj meg egy  számot:"))
 
-print(str(szam))
+#print(str(szam))
 
 for i in range(1, 40):
     if i % szam == 0:
-        print(i)
+#        print(i)
+
+oszlop=[[e[2],e[6]] for e in tabla]
+
+print(oszlop)
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
 
 
 
