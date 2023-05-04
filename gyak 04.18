@@ -1,0 +1,20 @@
+#készitsünk class-t és objektumot müvelet néve
+#alapból 2 számot kap
+#a müvelet legyen 4 fügvénye
+# az értékét adja vissza mindegyik függvény
+
+class muvelet:
+    def _init_(self,szam1,szam2):
+        self.ertek=szam1
+        self.ertek=szam2
+    def osszeadas(self):
+        return self.ertek1+self.ertek2
+    def kivonas(self):
+        return self.ertek1-self.ertek2
+    def szorzas(self):
+        return self.ertek1*self.ertek2
+    def osztas(self):
+        return self.ertek1/self.ertek2
+muvelet(10,10)
+print(muvelet.osszeadas())
+
